@@ -1,0 +1,27 @@
+{
+  "name": "gt-unsafe-filter",
+  "homepage": "https://github.com/Gutenberg-Technology/gt-unsafe-filter",
+  "authors": [
+    "Chris G. <christophe.gourmelon@gmail.com>"
+  ],
+  "description": "Filter to be used with ng-bind-html to prevent AngularJS unsafe warning",
+  "main": "gt-unsafe-filter.js",
+  "keywords": [
+    "angularjs",
+    "unsafe",
+    "filter"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "*.coffee",
+    "coffeelint.json"
+  ],
+  "dependencies": {
+    "angular": "~1"
+  }
+}
