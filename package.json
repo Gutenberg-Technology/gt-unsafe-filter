@@ -1,6 +1,6 @@
 {
   "name": "gt-unsafe-filter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "description": "Filter to be used with ng-bind-html to prevent AngularJS unsafe warning",
   "main": "gt-unsafe-filter.js",
