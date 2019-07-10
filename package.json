@@ -1,6 +1,7 @@
 {
   "name": "gt-unsafe-filter",
   "version": "1.0.2",
+  "private": true,
   "description": "Filter to be used with ng-bind-html to prevent AngularJS unsafe warning",
   "main": "gt-unsafe-filter.js",
   "scripts": {
@@ -21,7 +22,13 @@
     "url": "https://github.com/Gutenberg-Technology/gt-unsafe-filter/issues"
   },
   "homepage": "https://github.com/Gutenberg-Technology/gt-unsafe-filter#readme",
+  "files": [
+    "gt-unsafe-filter.js"
+  ],
   "dependencies": {
+    "angular": "^1.4"
+  },
+  "devDependencies": {
     "coffee-script": "1.11.0",
     "gulp": "3.9.1",
     "gulp-coffee": "2.3.2",
