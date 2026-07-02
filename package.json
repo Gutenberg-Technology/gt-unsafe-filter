@@ -1,10 +1,12 @@
 {
-  "name": "gt-unsafe-filter",
+  "name": "@gutenberg-technology/gt-unsafe-filter",
   "version": "1.0.3",
   "private": true,
   "description": "Filter to be used with ng-bind-html to prevent AngularJS unsafe warning",
   "main": "gt-unsafe-filter.js",
   "scripts": {
+    "build": "gulp",
+    "prepack": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
